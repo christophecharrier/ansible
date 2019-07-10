@@ -99,7 +99,7 @@ You can launch an action (task) on a specific role by calling a Tag or several t
 #### TAGS:
 
 * docker-rm-ct: Removing all containers
-* docker-clean-img: Removing abandonned images
+* docker-clean-img: Removing abandoned images
 * cmd-docker: This task can be used to execute a command in a container, using either nsenter or docker exec. This task need to know the "Method" : "nsenter" or "exec".
 * docker_install: Install docker for Ubuntu 14.04
 * docker-rm-img: Removing all images
